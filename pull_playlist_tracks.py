@@ -22,8 +22,8 @@ if len(sys.argv) != 2:
     print('Usage: python pull_playllist_tracks.py playlist_id')
     exit()
 
-cid = '5e14b21601344411b74f691d52e393a1'    # Client ID
-secret = '5a9c00ad3dc94b9cbce775d72aeee699'
+cid = '***************************'    # Client ID
+secret = '***************************'
 
 # Authorize spotipy access with Client ID
 client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
