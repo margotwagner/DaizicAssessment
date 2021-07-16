@@ -84,8 +84,8 @@ for p_id in promoter_id_list:
     promoter_playlist_stats[p_id] = [n_promotion_hits(indicator_addtimes, p_addtimes)]
 
     # Add the number of followers in the promoter playlist to stats dict
-    cid = '5e14b21601344411b74f691d52e393a1'    # Authorize spotipy access with Client ID
-    secret = '5a9c00ad3dc94b9cbce775d72aeee699'
+    cid = '***************************'    # Authorize spotipy access with Client ID
+    secret = '***************************'
     client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
     sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
     promoter_followers = sp.playlist(p_id, fields='followers')
