@@ -1,6 +1,6 @@
-# DaizicAssessment
+# SpotifyPromotions
 
-DaizicAssessment is a Python take home assessment for Daizic. It specifically looks to understand 3rd party Spotify playlist promotion.
+SpotifyPromotions is a data science project looking to understand 3rd party Spotify playlist promotion.
 
 ## Usage
 
